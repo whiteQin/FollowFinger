@@ -1,19 +1,23 @@
 # FollowFinger
 这是一个自定义view，可嵌套小空件实现控件跟随手指移动（有边界）
 
-Step 1. Add it in your root build.gradle at the end of repositories:
+Step 1.
+
 	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-Step 2. Add the dependency
+
+Step 2.
+
 	dependencies {
 	        implementation 'com.github.whiteQin:FollowFinger:1.0.0'
 	}
 
 使用方法为
+
      <com.followfingerlibrary.FingerFollowView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
